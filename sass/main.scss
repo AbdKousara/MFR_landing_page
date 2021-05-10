@@ -1,0 +1,44 @@
+body {
+       padding: 100px;
+       background-color: #D3D3D3;
+}
+
+header{
+       h1{
+              size: 60px;
+              
+       }
+}
+.hero_section {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+
+}
+
+main {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       text-align: center;
+       margin-top: 50px;
+
+
+
+       h2 {
+
+              size: 50px;
+              color: red;
+
+       }
+
+
+
+       p {
+              size: 20px;
+              line-height: 20px;
+       }
+
+
+
+}
