@@ -51,10 +51,11 @@ body {
   color: white;
   background-color: #ed741d;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 500;
-  width: 110px;
+  font-weight: 600;
+  width: 120px;
   height: 30px;
   margin-top: 5px;
+  letter-spacing: 2px;
 }
 
 .features_section {
