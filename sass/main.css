@@ -27,7 +27,7 @@ body {
   margin-top: 10px;
 }
 
-.hero_section .header_title span {
+.hero_section .header_title a {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
 }
