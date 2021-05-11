@@ -4,7 +4,8 @@ body {
 }
 
 header h1 {
-  size: 60px;
+  size: 20px;
+  color: red;
 }
 
 header #header_img {
@@ -38,11 +39,6 @@ main {
           justify-content: space-between;
   text-align: center;
   margin-top: 50px;
-}
-
-main h2 {
-  size: 50px;
-  color: red;
 }
 
 main p {
