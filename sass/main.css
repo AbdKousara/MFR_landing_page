@@ -1,9 +1,9 @@
 body {
-  padding: 100px 30px 100px 30px;
+  padding: 0px 30px 20px 30px;
   background-color: #E0E5EB;
 }
 
-header .hero_section {
+.hero_section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,14 +14,50 @@ header .hero_section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 auto 50px auto;
 }
 
-header .header_img {
+.hero_section .header_img {
   width: 400px;
+  margin-right: 10px;
 }
 
-main .features_section {
+.hero_section .header_title {
+  width: 350px;
+  height: 350px;
+  margin-top: 10px;
+}
+
+.hero_section .header_title span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+}
+
+.hero_section .header_title h1 {
+  font-family: 'Signika', sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 40px;
+  color: #ed741d;
+}
+
+.hero_section .header_title p {
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.hero_section .header_title button {
+  border: none;
+  color: white;
+  background-color: #ed741d;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+  width: 110px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.features_section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,10 +65,59 @@ main .features_section {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
-  margin-top: 50px;
+}
+
+.features_section .feature {
+  width: 250px;
+  height: 250px;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+.features_section .feature h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+.features_section .feature p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+  color: white;
+}
+
+.features_section .feature i {
+  border-radius: 100px;
+  font-size: 30px;
+  padding: 15px;
+  background-color: white;
+  color: #ed741d;
+}
+
+.features_section .feature button {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  border: none;
+  background-color: white;
+  width: 110px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.features_section .feature_1 {
+  background-color: #ed7218;
+}
+
+.features_section .feature_2 {
+  background-color: #f48025;
+}
+
+.features_section .feature_3 {
+  background-color: #f9ac44;
 }
 /*# sourceMappingURL=main.css.map */
