@@ -1,19 +1,9 @@
 body {
-  padding: 100px;
-  background-color: #D3D3D3;
+  padding: 100px 30px 100px 30px;
+  background-color: #E0E5EB;
 }
 
-header h1 {
-  size: 20px;
-  color: red;
-}
-
-header #header_img {
-  width: 300px;
-  margin-right: 30px;
-}
-
-.hero_section {
+header .hero_section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,12 +11,17 @@ header #header_img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto 50px auto;
 }
 
-main {
+header .header_img {
+  width: 400px;
+}
+
+main .features_section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,10 +34,5 @@ main {
           justify-content: space-between;
   text-align: center;
   margin-top: 50px;
-}
-
-main p {
-  size: 20px;
-  line-height: 20px;
 }
 /*# sourceMappingURL=main.css.map */
